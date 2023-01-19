@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    android:layout_height="match_parent"
+    tools:context=".Status">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Availablity Status"
+        android:textSize="20dp"
+        android:background="@color/lightgray"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programe name"
+            android:textColor="@color/lightrose"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textColor="@color/lightrose"
+            android:textStyle="italic"
+            android:layout_margin="5dp"
+            android:textSize="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DATE"
+                android:textColor="@color/lightrose"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TIME"
+                android:textColor="@color/lightrose"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VENUE"
+                android:textColor="@color/lightrose"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

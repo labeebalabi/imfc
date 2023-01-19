@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IMFC</string>
+    <string name="already_registered_login">already_registered? LOGIN</string>
+    <string name="IMFC">IMFC.db</string>
+    <string name="register">REGISTER</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+    <string name="sign_up">signup</string>
+    <string name="report">REPORT</string>
+    <string name="upcoming_events">UPCOMING EVENTS</string>
+    <string name="farook_college_resourses">FAROOK COLLEGE RESOURSES</string>
+    <string name="addevent">ADDEVENT</string>
+    <string name="availablity">Availablity</string>
+    <string-array name="positionfc">
+        <item>Select Position</item>
+        <item>Faculty</item>
+        <item>Student</item>
+        <item>Non-TeachingStaff</item>
+        <item>Association Sec.</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
